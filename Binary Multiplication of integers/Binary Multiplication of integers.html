@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Binary Multiplication of integers</title>
+</head>
+<body>
+
+<script>
+    function xorMultiply(a,b) {
+        let result = 0;
+        while (b !== 0){
+            console.log(b.toString(2));
+            console.log(a.toString(2));
+            result ^=a*(b&1);
+            console.log(result.toString(2));
+            a <<=1;
+            b >>=1;
+        }
+        return result;
+    }
+    c=prompt('enter first integer');
+    d=prompt('enter sacend integer');
+    console.log(xorMultiply(c,d))
+</script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>القارات</title>
+        <style>
+                body {font-family: "Lato", sans-serif;}
+                
+                .tablink {
+                  background-color: #0d1d77;
+                  color: white;
+                  float: left;
+                  border: none;
+                  outline: none;
+                  cursor: pointer;
+                  padding: 14px 16px;
+                  font-size: 17px;
+                  width: 25%;
+                }
+                
+                .tablink:hover {
+                  background-color: #777;
+                }
+                
+                /* Style the tab content */
+                .tabcontent {
+                  color: white;
+                  display: none;
+                  padding: 50px;
+                  text-align: center;
+                }
+                
+                #London {background-color:red;}
+                #Paris {background-color:green;}
+                #Tokyo {background-color:blue;}
+                #Oslo {background-color:orange;}
+                </style>
+        <script>
+                function openCity(cityName,elmnt,color) {
+                  var i, tabcontent, tablinks;
+                  tabcontent = document.getElementsByClassName("tabcontent");
+                  for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                  }
+                  tablinks = document.getElementsByClassName("tablink");
+                  for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].style.backgroundColor = "";
+                  }
+                  document.getElementById(cityName).style.display = "block";
+                  elmnt.style.backgroundColor = color;
+                
+                }
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen").click();
+                </script>
+    </head>
+    <body dir="rtl">
+
+
+        <div class="header">
+            <img class="w3-left"src="header4.jpg" alt="">
+        </div>
+       <!-- <div class="Header">
+            <h2 class="logo P-M-E w3-text-indigo2 w3-display-topmiddlemy">Feedbacker</h2>
+            <h5 class="w3-display-topmiddlemy2 logoar w3-text-indigo2"><span class="w3-text-red2">سفرتك</span> تبدأ هنا</h5>
+            <img class="w3-left logo"src="header3.png" alt="">
+
+    </div>-->
+        <div class="Main">
+            <div class="menu">
+                <div class="w3-bar w3-indigomy">
+                   
+                   
+                        <a class="w3-bar-item w3-button" href="index.html"> الرئيسية</a>
+
+                      
+                            <a class="w3-bar-item w3-button" href="">العروض <a>
+                 
+                          
+                          
+
+                          <div class="w3-dropdown-hover">
+                            <button class="w3-button">القارات</button>
+                            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                              <a href="" class="w3-bar-item w3-button">اسيا</a>
+                              <a href="" class="w3-bar-item w3-button">اسيا</a>
+                            </div>
+                          
+                          </div>
+                       
+                   
+
+                  </div>
+            </div>
+            <div class="localBody w3-center	w3-cell-row">
+
+
+                    <div id="London" class="tabcontent">
+                     <a href=""> <h1>الولايات المتحدة</h1></a>
+                      <p>واشنطن هي عاصمة الولايات المتحدة </p>
+                    </div>
+                    
+                    <div id="Paris" class="tabcontent">
+                      <a href="index.html"><h1>فرنسا</h1></a>
+                      <p>باريس هي عاصمة فرنسا</p> 
+                      <a href=""><h1>اذربيجان</h1></a>
+                      <p>باكو هي عاصمة اذربيجان</p> 
+                     
+                    </div>
+                    
+                    <div id="Tokyo" class="tabcontent">
+                        <a href=""> <h1>اليابان</h1></a>
+                      <p>طوكيو هي عاصمة اليابان</p>
+                    </div>
+                    
+                    <div id="Oslo" class="tabcontent">
+                        <a href="">   <h1>استراليا</h1></a>
+                      <p>كانبرا هي عاصمة استراليا</p>
+                    </div>
+                    
+                    <button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">قارة أمريكا الشمالية</button>
+                    <button class="tablink" onclick="openCity('Paris', this, 'green')">قارة اوروبا</button>
+                    <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">قارة أسيا</button>
+                    <button class="tablink" onclick="openCity('Oslo', this, 'orange')">قارة استراليا</button>
+                    
+                    
+            </div>
+            <div class="footer w3-container w3-bottom w3-indigomy" style="padding-top: 20px;">
+                    <div>
+                            <span class="pad  w3-text-white">تواصل معنا :</span>
+                          <ul>
+                              <li class="ul-mod w3-right"><a href="" target="_blank"><i class="fa fa-twitter" style="font-size:24px"></i>
+                              </a></li>
+                              <li class="ul-mod w3-right"><a  href="" target="_blank"><i class="fa fa-envelope" style="font-size:24px"></i></a></li>
+                          </ul>
+                          </div>
+                          <div>
+                                <span><a href="المساعدة.html" class="w3-display-bottommiddle2 w3-text-white pad2">من نحن</a></span>
+                                <span><a href="عن الموقع.html"class="w3-display-bottommiddle3 w3-text-white pad2">عن الموقع</a></span>
+                          </div>
+                  </div>
+        </div>
+        
+    </body>
+</html>

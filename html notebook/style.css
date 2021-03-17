@@ -1,0 +1,134 @@
+a {
+    text-decoration: none;
+  }
+  body{
+    background-image: url('panda2.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .links-color{
+    color: ghostwhite;
+  }
+  .links-color2{
+    color: red;
+    padding: 0 440px 0 0;
+  }
+  .links-color3{
+    color: white;
+    text-decoration: snow;
+    padding: 0 440px 0 0;
+  }
+  .floatr{
+    float: right;
+  }
+  .floatl{
+    float: left;
+    
+  }
+  .MainMargin{
+      margin-bottom: 5px
+  }
+  .FirstParagrapg{
+      color: black;
+  }
+  .batten{
+    background-color: crimson;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+  .floatt{
+    float: top !important;
+    position: absolute;
+    top: 20%;
+  }
+  .floatb{
+    float: bottom;
+    position: absolute;
+    bottom: -400px;
+  }
+  .background-cells{
+    background-color: crimson;
+    padding:20%;
+    font-size: 22px;
+  }
+  .position{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  #ban{
+    display: block;
+    float: top;
+    left: 0;
+    top: 26%;
+    right: 54px;
+    bottom: 0;
+    z-index: -1;
+    padding:0 500px 0 0;
+  }
+  #ban2{
+    display: none;
+  }
+  #block{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    display: block;
+  }
+  #main-padding{
+    padding:0 0 0 0;
+    margin: 0 110px 0 110px;
+    border: 3px dotted black;
+    border-top: 3px dotted black;
+    border-radius: 80px;
+    border-bottom: 3px dotted black;
+    background-color: crimson;
+  }
+  .Eng p{
+    font-family: sans-serif , Arial , Times;
+     font-size: 20px;
+    font-weight: bold;
+     font-style: italic;
+     text-transform: uppercase;
+}
+.Eng h2{
+    text-transform: capitalize;
+}
+.Ar{
+    direction: rtl;
+
+}
+.Ar p{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.Ar q{
+    color: purple;
+}
+.P-M-A{
+    background-image: url(panda2.jpeg);
+    background-size: 501px 183px;
+    background-repeat: repeat;
+    background-position: inherit;
+    background-attachment: fixed;
+}
+
+.P-M-E{
+    background-image: url(panda.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -1,0 +1,59 @@
+html, body, .container {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, serif;
+}
+
+.table-container {
+  height: 100%;
+  width: 100%;
+}
+
+.left-side {
+  padding-right: 5px;
+  padding-left: 5px;
+  vertical-align: top;
+}
+
+.left-side h2 {
+  background-color: #ccc;
+  padding: 15px;
+}
+
+.left-side p {
+  text-align: justify;
+}
+
+.left-side ul {
+  list-style: square;
+  padding: 15px;
+}
+
+.right-side {
+  background-color: #58A6E5;
+  width: 270px;
+  color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+  vertical-align: top;
+}
+
+.divider {
+  background-color: #4485b9;
+  height: 5px;
+  width: 90%;
+  margin: 5px auto;
+  margin-top: 28px;
+}
+.avatar img {
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.right-side a img {
+  width: 48px;
+}

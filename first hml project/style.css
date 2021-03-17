@@ -1,0 +1,87 @@
+html,body ,.Container
+{
+    height: 100%;
+}
+body
+{
+    margin: -2px;
+}
+.Container
+{
+
+}
+.TContainer
+{
+ height: 100%;
+ width: 100%;
+}
+.RighSide
+{
+background-color: crimson;
+width: 200px;
+color: white;
+font-family: Arial,serif;
+padding-right: 5px;
+padding-left: 5px; 
+vertical-align: top;
+
+}
+.Avatar img
+{
+     padding-top: 0;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%
+}
+.Partation
+{
+    background-color: #8c0a22;
+    height: 5px;
+    width: 69%;
+    margin: 5px auto;
+    margin-top: 5px;
+}
+.Social img
+{
+    width: 150px;
+    
+
+}
+.LeftSide
+{
+   padding-right: 5px;
+   padding-left: 5px; 
+   vertical-align: top;
+}
+.LeftSide h2{
+    
+    background-color: #fd9c9c;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border: 1px solid;
+}
+.Orgi{
+   
+}
+skills ul {
+    list-style-type: square;
+    direction: ltr;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .skills li {
+    padding-bottom: 20px;
+  }
+  
+  .skills-list { 
+    clear: bottom;
+  }
+  
+  .group-skills {
+    width: 50%;
+    float: right;
+  }
